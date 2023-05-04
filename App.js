@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 import Constants from 'expo-constants';
 
-import Index from './components/Index';
+//import Index from './components/Index';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Index />
+      <Text>Oi</Text>
     </View>
   );
 }
