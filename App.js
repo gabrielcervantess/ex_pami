@@ -1,13 +1,13 @@
-import * as React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
-import Constants from 'expo-constants';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native'; 
 
-//import Index from './components/Index';
+import Apostila03 from './components/apostila_03/index';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Oi</Text>
+      <Apostila03 />
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -15,9 +15,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#9E9E9E',
-    padding: 8
   },
 });
