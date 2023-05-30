@@ -9,7 +9,17 @@ export default function apostila03() {
 
   function AddNumber() {
     setContador(contador + 1);
-    
+  
+  }
+  
+  function AddNumber() {
+    setContador(contador - 1);
+  
+  }
+
+  function AddNumber() {
+    setContador(contador = 0);
+  
   }
   return (
     <View style={styles.container}>
@@ -23,6 +33,8 @@ export default function apostila03() {
       >
         <Text style={styles.textButton} >Somar +1</Text>
       </TouchableOpacity>
+
+      
 
     </View>
   );
