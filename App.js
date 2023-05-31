@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 
 import Apostila04 from './components/apostila_04';
 
-let corApp = '#fff';
+let corApp = '#000';
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'corApp',
+    backgroundColor: corApp,
     //alignItems: 'center',
     // justifyContent: 'center',
     padding: 8,
