@@ -32,20 +32,30 @@ const styles = StyleSheet.create({
         color: '#E53935', 
         borderRadius: 10, 
         width: '70%',
-        }, 
-        button: {
+    }, 
+    
+    button: {
         backgroundColor: '#E53935', 
         height: 40, 
         justifyContent: 'center', 
         borderRadius: 10, 
         marginTop: 20, 
         width: '70%',
-        }, 
-        textButton: {
+    }, 
+        
+    textButton: {
         fontSize: 22, 
         color: '#FFCDD2', 
         textAlign: 'center', 
-        }, 
+    }, 
+
+        nome: {
+        fontSize: 15,
+        color: '#b71c1c',
+        fontWeight: 'bold',
+        marginTop: 10,
+    },
+
 });
 
 export default styles;
