@@ -1,16 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native'; 
+import * as React from 'react';
+import { StyleSheet, View } from 'react-native'; 
 import Constants from 'expo-constants';
 
-import Apostila04 from './components/apostila_04';
-
-let corApp = '#000';
+import Index from './components/apostila_05/Index';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Apostila04 />
-      <StatusBar style={corApp === '#000' ? "light" : "dark"} />
+      <Index />
     </View>
   );
 }
@@ -18,7 +15,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: corApp,
+    justifyContent: 'center',
+    backgroundColor: '#C51162',
     //alignItems: 'center',
     // justifyContent: 'center',
     padding: 8,
