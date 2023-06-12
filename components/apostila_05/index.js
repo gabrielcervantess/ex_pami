@@ -6,12 +6,10 @@ export default function App() {
     const [n1, setN1] = useState(0);
     const [n2, setN2] = useState(0);
     const [total, setTotal] = useState(0);
-
-    
 }
 
 
-export default function Index() {
+export default function App() {
     return (
         <View style={styles.container}>
             <Text style={styles.paragraph}> Exemplo 5 </Text>
