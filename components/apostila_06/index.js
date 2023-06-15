@@ -3,9 +3,14 @@ import { Text, View, StyleSheet, TextInput, TouchableOpacity } from 'react-nativ
 import styles from './styles';
 export default function Index() {
 
-    const {massa, SetMassa} =useState(0);
-    const {altura, SetAltura} =useState(0);
-    const {resultado, SetResultado} =useState(0);
+    const {massa, SetMassa} = useState(0);
+    const {altura, SetAltura} = useState(0);
+    const {resultado, SetResultado} = useState(0);
+
+    function Calcular() {
+        const valor = massa / (altura * altura);
+        SetResultado(valor);
+    }
 
     return (
 
@@ -30,7 +35,7 @@ export default function Index() {
                  />
             </View>
             
-            <TouchableOpacity style={styles.button} onPress={() => {}} >
+            <TouchableOpacity style={styles.button} onPress={() => Calcular()} >
                 <Text style={styles.buttonText}> Calcular </Text>
             </TouchableOpacity>
             
