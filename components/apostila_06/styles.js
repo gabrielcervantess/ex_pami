@@ -28,6 +28,8 @@ const styles = StyleSheet.create({
     }, 
     button: {
       backgroundColor: '#89FFA5',
+      marginBottom: 0,
+      marginTop: 45,
     }, 
     buttonText: {
       alignSelf: 'center', 
@@ -42,6 +44,12 @@ const styles = StyleSheet.create({
       fontSize: 65, 
       padding: 15, 
     }, 
+
+    textresultados: {
+      alignSelf: 'center', 
+      color: 'lightgray', 
+      fontSize: 28,
+    }
   });
 
   export default styles;
