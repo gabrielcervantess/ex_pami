@@ -28,11 +28,8 @@ export default function Index() {
       else if (valor >= 35 && valor < 40) {
         setGrau('Obesidade grau II');
       }
-      else if (valor >= 40 && valor <= 60) {
+      else if (valor > 40) {
         setGrau('Obesidade grau III');
-      }
-      else if (valor > 60) {
-        setGrau('Planeta anão');
       }
   }
 
